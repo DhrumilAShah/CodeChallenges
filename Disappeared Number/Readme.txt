@@ -1,14 +1,13 @@
-Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
 
-Note:
+Find all the elements of [1, n] inclusive that do not appear in this array.
 
-Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
 
-Example 1:
+Example:
 
-Input: [2,2,1]
-Output: 1
-Example 2:
+Input:
+[4,3,2,7,8,2,3,1]
 
-Input: [4,1,2,1,2]
-Output: 4
+Output:
+[5,6]
